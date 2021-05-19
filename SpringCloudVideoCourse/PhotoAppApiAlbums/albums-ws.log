@@ -1,0 +1,17 @@
+2021-01-02 12:10:52.540  INFO 17256 --- [main] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8012
+2021-01-02 12:10:54.824  INFO 17256 --- [main] c.c.c.ConfigServicePropertySourceLocator : Connect Timeout Exception on Url - http://localhost:8012. Will be trying the next url if available
+2021-01-02 12:10:54.826  WARN 17256 --- [main] c.c.c.ConfigServicePropertySourceLocator : Could not locate PropertySource: I/O error on GET request for "http://localhost:8012/albums-ws/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2021-01-02 12:10:54.852  INFO 17256 --- [main] .a.a.P.PhotoAppApiAlbumsApplicationTests : No active profile set, falling back to default profiles: default
+2021-01-02 12:10:57.058  WARN 17256 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2021-01-02 12:10:57.784  INFO 17256 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=8adaa146-53d2-38f8-9d1f-64a547f3e5c9
+2021-01-02 12:10:58.497  INFO 17256 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$30e0cf32] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-02 12:10:59.294  WARN 17256 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2021-01-02 12:10:59.295  INFO 17256 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-02 12:10:59.319  WARN 17256 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2021-01-02 12:10:59.320  INFO 17256 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-01-02 12:11:00.883  INFO 17256 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-02 12:11:16.354  INFO 17256 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-01-02 12:11:16.550  INFO 17256 --- [main] .a.a.P.PhotoAppApiAlbumsApplicationTests : Started PhotoAppApiAlbumsApplicationTests in 38.278 seconds (JVM running for 41.125)
+2021-01-02 12:11:18.060  INFO 17256 --- [Thread-8] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-01-02 12:11:18.069  INFO 17256 --- [Thread-8] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ALBUMS-WS with eureka with status DOWN
+2021-01-02 12:11:18.077  INFO 17256 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
