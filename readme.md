@@ -24,6 +24,10 @@
 - Swagger
 - Amazon Simple Email Service
 
+### Reference
+- source folder: springmvc-ws, verification-service
+- [RESTful Web Services](https://www.udemy.com/course/restful-web-service-with-spring-boot-jpa-and-mysql/)
+
 # Spring Boot Microservices and Spring Cloud
 
 ### Microservices
@@ -71,6 +75,10 @@
 - Sleuth and Zipkin
 - ELK (Logstash/Elasticsearch/Kibana)
 
+### Reference
+- source folder: SpringCloudVideoCourse
+- [Spring Boot Microservices and Spring Cloud](https://www.udemy.com/course/spring-boot-microservices-and-spring-cloud/)
+
 # Java Blog Collector
 
 ### User management
@@ -101,3 +109,6 @@
 - JSP
 - Apache Tiles
 - Tomcat
+### Reference
+- source folder: java-blog-collector
+- [Spring web app tutorial](https://www.youtube.com/watch?v=mH2jx2RCu7o&list=PLmcxdcWPhFqMq2BctGktOcIJKUw23wJeh)
